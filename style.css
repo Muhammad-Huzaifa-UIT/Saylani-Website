@@ -1,0 +1,326 @@
+.main{
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 50px;
+    background-color: #316DC3 ;
+    overflow: hidden;
+}
+
+.main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.header{
+    width: auto;
+}
+
+.facebook{
+    position: relative;
+    top: 9px;
+    left: 90px;
+}
+.twitter{
+    position: relative;
+    top: 9px;
+    left: 105px;
+}
+.instagram{
+    position: relative;
+    top: 9px;
+    left: 120px;
+}
+.youtube{
+    position: relative;
+    top: 9px;
+    left: 135px;
+}
+.whatsapp{
+    position: relative;
+    top: 9px;
+    left: 150px;
+}
+.millions{
+    color: white;
+    margin: -13px;
+}
+.button1{
+    border-color: gray;
+    position: relative;
+    top: -20px;
+    left: 1009px;
+    height: 30px;
+    padding: 3px;
+    margin: 7px;
+}
+.button2{
+    border-color: gray;
+    position: relative;
+    top: -20px;
+    left: 999px;
+    height: 30px;
+    padding: 3px;
+    margin: 7px;
+}
+.button3{
+    border-color: gray;
+    position: relative;
+    top: -20px;
+    left: 989px;
+    height: 30px;
+    padding: 3px;
+    margin: 7px;
+}
+.nav li a:hover {
+    background-color: #4077E5;
+    color: white;
+    border-radius: 25px;
+}
+.nav li a {
+    display: block;
+    color: black;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+.marq {
+    background: #4077E5;
+}
+
+.gap {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+.introhead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.introhead img {
+    margin-top: -20% important;
+}
+
+.para {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: grey;
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+.counting-sec {
+    padding: 40px 0;
+    width: 100%;
+    background: #005ce6;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.col img {
+    font-size: 40px;
+    color: #333;
+}
+
+.num {
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: 'Georgia', 'serif';
+}
+
+.desc {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.link{
+    height: 590px;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.849);
+}
+
+.useful_links{
+    font: 1em lucida bright;
+    position: relative;
+    top: 145px;
+    left: 580px;
+}
+.useful_links b{
+    color: white;
+}
+.underline3{
+    
+    position: relative;
+    top: 122px;
+    left: 580px;
+}
+.underline3 p1{
+    color: rgb(33, 170, 33);
+}
+.underline3 p2{
+    color: lightgray;
+}
+.connect{
+    font: 1em lucida bright;
+    position: relative;
+    top: 69px;
+    left: 950px;
+}
+.connect b{
+    color: white;
+}
+
+
+.address{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+.contact_img{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+.contact{
+    position: relative;
+    top:35px;
+    left: 130px;
+}
+.contact_img2{
+    position: relative;
+    top: -7px;
+    left: 300px;
+}
+.contact2{
+    position: relative;
+    top: -31px;
+    left: 330px;
+}
+.contact_img3{
+    position: relative;
+    top: -40px;
+    left: 100px;
+}
+.contact3{
+    position: relative;
+    top: -54px;
+    left: 130px;
+}
+.contact_img4{
+    position: relative;
+    top: -55px;
+    left: 100px;
+}
+.contact4{
+    position: relative;
+    top: -79px;
+    left: 130px;
+}
+.contact_img5{
+    position: relative;
+    top: -80px;
+    left: 100px;
+}
+.contact5{
+    position: relative;
+    top: -104px;
+    left: 130px;
+}
+.email_img{
+    width: 20px;
+    position: relative;
+    top: -110px;
+    left: 100px;
+}
+.email{
+    position: relative;
+    top: -132px;
+    left: 130px;
+}
+.link p{
+    color: lightgray;
+}
+.link1 img{
+    border-radius: 50px;
+}  
+.fb{
+    position: relative;
+    top: -385px;
+    left: 945px;
+}
+.tw{
+    position: relative;
+    top: -385px;
+    left: 950px;
+}
+.ins{
+    position: relative;
+    top: -385px;
+    left: 955px;
+}
+.yt{
+    position: relative;
+    top: -385px;
+    left: 960px;
+}
+.link2 img{
+    border-radius: 50px;
+}  
+.footer{
+    height: 50px;
+    background-color: rgb(85, 85, 224);
+}
+.footer p{
+    font-size: small;
+    color: white;
+}
+.copyrights{
+    position: relative;
+    top: 15px;
+    left: 100px;
+}
+
+.top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50px;
+}
+.fb{
+    position: relative;
+    top: -385px;
+    left: 945px;
+}
+.gal{
+    position: relative;
+    top: 30px;
+    width: 225px;
+}
